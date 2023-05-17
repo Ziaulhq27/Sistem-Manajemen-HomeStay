@@ -4,6 +4,8 @@ class Homestay
 {
     static holder homestay_ob=new holder();
     static Scanner sc = new Scanner(System.in);
+
+    // Method untuk mengambil data pelanggan
     static void CustDetails(int i,int rn)
     {
         String name, contact, gender;
@@ -25,6 +27,7 @@ class Homestay
         gender2 = sc.next();
         }      
         
+        // Menentukan tipe kamar berdasarkan input
           switch (i) {
             case 1:homestay_ob.luxury_doublerrom[rn]=new Doubleroom(name,contact,gender,name2,contact2,gender2);
                 break;
@@ -39,6 +42,7 @@ class Homestay
         }
     }
     
+    // Method untuk memesan kamar
     static void bookroom(int i)
     {
         int j;
@@ -140,6 +144,7 @@ class Homestay
         System.out.println("Kamar Telah Di Pesan");
     }
     
+    // Method untuk menampilkan fitur kamar
     static void features(int i)
     {
         switch (i) {
@@ -157,6 +162,7 @@ class Homestay
         }
     }
     
+    // Method untuk mengecek ketersediaan kamar
     static void availability(int i)
     {
       int j,count=0;
@@ -196,6 +202,7 @@ class Homestay
         System.out.println("Nomor Kamar Yang Tersedia : "+count);
     }
     
+    // Method untuk mencetak tagihan
     static void bill(int rn,int rtype)
     {
         double amount=0;
@@ -268,6 +275,7 @@ class Homestay
     }
     
     static void deallocate(int rn,int rtype)
+     // Menampilkan informasi tentang status kamar yang akan didealokasi
     {
         int j;
         char w;
@@ -354,6 +362,7 @@ class Homestay
         int i,q;
         char wish;
          try{
+            // Menampilkan menu makanan
              System.out.println("\t\t==========\n   \t\t   Menu  \t\n\t\t==========\n\n1.Nasi Goreng\t\t: Rp. 15000\n2.Lobster sambal\t: Rp. 60000\n3.Mie Aceh\t\t: Rp. 20000\n4.Teh Dingin\t\t: Rp. 5000\n");
         do
         {
@@ -361,7 +370,8 @@ class Homestay
             System.out.print("Quantity: ");
             q=sc.nextInt();
            
-              switch(rtype){
+            // Menambahkan pesanan makanan ke kamar yang sesuai
+            switch(rtype){
             case 1: homestay_ob.luxury_doublerrom[rn].food.add(new Food(i,q));
                 break;
             case 2: homestay_ob.deluxe_doublerrom[rn].food.add(new Food(i,q));
