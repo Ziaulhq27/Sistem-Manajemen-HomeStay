@@ -6,15 +6,15 @@
 - Muhammad huzaifi (2108001010059)
 
 ### Contoh Output
-##### Tampilan opsi layanan dan detail kamar
+#### 1. Tampilan opsi layanan dan detail kamar
 ![Tampilan opsi layanan dan detail kamar](foto/no%201.jpeg)
-#### Tampilan opsi layanan dan ketersediaan kamar
+#### 2. Tampilan opsi layanan dan ketersediaan kamar
 ![Tampilan opsi layanan dan ketersediaan kamar](foto/no%202.jpeg)
-#### Tampilan opsi layanan dan pesan kamar
+#### 3. Tampilan opsi layanan dan pesan kamar
 ![Tampilan opsi layanan dan pesan kamar](foto/no%203.jpeg)
-#### Tampilan opsi layanan dan pesan makanan
+#### 4. Tampilan opsi layanan dan pesan makanan
 ![Tampilan opsi layanan dan pesan makanan](foto/no%204.jpeg)
-#### Tampilan opsi layanan dan pesan sekarang
+#### 5. Tampilan opsi layanan dan pesan sekarang
 ![Tampilan opsi layanan dan pesan sekarang](foto/no%205.jpeg)
-#### Tampilan opsi layanan dan keluar
+#### 6. Tampilan opsi layanan dan keluar
 ![Tampilan opsi layanan dan keluar](foto/no%206.jpeg)
